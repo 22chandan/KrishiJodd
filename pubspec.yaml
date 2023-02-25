@@ -45,6 +45,20 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
+    - assets/images/kisan.png
+    - assets/images/amazon.png
+    - assets/images/avatar.png
+    - assets/images/google.png
+    - assets/images/hero.png
+    - assets/images/post-img.jpg
+    - assets/json/resources.json
+    - assets/json/productlist.json
+    - assets/images/123.png
+
+    
+
+
+
     - assets/lottie/86090-re-fork-farmer.json
 
     

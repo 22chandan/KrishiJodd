@@ -1,0 +1,40 @@
+[
+    {
+        "title":"Harvesting technique",
+        "image":"assets/images/resource.png",
+        "description":"Lorem Ipsum is simply dummy text of the ",
+        "author":"https://youtu.be/Vip1mnC3Nn8"   
+             
+    },
+    {
+        "title":"Types of soils",
+        "image":"assets/images/resource.png",
+        "description":"Lorem Ipsum is simply dummy text of the ",
+        "author":"https://youtu.be/9ck5iEP03g4"
+    },
+    {
+        "title":"Types of crops",
+        "image":"assets/images/resource.png",
+        "description":"Lorem Ipsum is simply dummy text of the ",
+        "author":"https://youtu.be/d-5jeEgP1BM"
+        
+    },
+    {
+        "title":"types of pesticides",
+        "image":"assets/images/resource.png",
+        "description":"Lorem Ipsum is simply dummy text of the ",
+        "author":"https://youtu.be/1IwKWYNycj8"
+    },
+    {
+        "title":"Irrigatioon techniques",
+        "image":"assets/images/resource.png",
+        "description":"Lorem Ipsum is simply dummy text of the ",
+        "author":"https://youtu.be/1IwKWYNycj8"
+    },
+    {
+        "title":"Harvesting technique",
+        "image":"assets/images/resource.png",
+        "description":"Lorem Ipsum is simply dummy text of the ",
+        "author":"https://youtu.be/1IwKWYNycj8"
+    }
+]
