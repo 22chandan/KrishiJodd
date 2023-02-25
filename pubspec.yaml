@@ -35,6 +35,7 @@ dependencies:
   mailto: ^2.0.0
   lottie: ^2.2.0
   animations: ^2.0.7
+  readmore: ^2.1.0
 
 
 dev_dependencies:
@@ -48,6 +49,20 @@ flutter:
     - assets/images/kisan.png
     - assets/images/amazon.png
     - assets/images/avatar.png
+    - assets/images/kisan.png
+    - assets/images/amazon.png
+    - assets/images/avatar.png
+    - assets/images/google.png
+    - assets/images/hero.png
+    - assets/images/post-img.jpg
+    - assets/json/resources.json
+    - assets/json/productlist.json
+    - assets/images/123.png
+
+    
+
+
+
     - assets/images/google.png
     - assets/images/hero.png
     - assets/images/post-img.jpg

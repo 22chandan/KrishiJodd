@@ -1,39 +1,33 @@
+// ignore_for_file: prefer_const_constructors
+
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:krishijodd/AuthPages/auth_check.dart';
+import 'package:krishijodd/AuthPages/register.dart';
+import 'package:krishijodd/firebase_options.dart';
+import 'package:krishijodd/splash.dart';
 import 'package:krishijodd/Homepage/productPage.dart';
 import 'package:krishijodd/AuthPages/login_hero.dart';
 import 'package:krishijodd/Post/addPost.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
+    statusBarColor: Color(0xFFEFF3F5),
+    systemNavigationBarColor: Color(0xFFEFF3F5),
+    statusBarBrightness: Brightness.dark,
+    systemNavigationBarIconBrightness: Brightness.dark,
+  ));
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  runApp(const MainApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MainApp extends StatelessWidget {
+  const MainApp({super.key});
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'KrishiJodd',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({
-    super.key,
-  });
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: ProductPage(),
-    );
+    return const MaterialApp(debugShowCheckedModeBanner: false, home: splash());
   }
 }
