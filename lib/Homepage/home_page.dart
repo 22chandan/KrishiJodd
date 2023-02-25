@@ -14,6 +14,7 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:krishijodd/Homepage/preview_image.dart';
 import 'package:krishijodd/Homepage/productPage.dart';
 import 'package:krishijodd/Homepage/profilePage.dart';
+import 'package:krishijodd/Homepage/resources.dart';
 
 import '../Posts/addPostPage.dart';
 import 'feed_page.dart';
@@ -37,7 +38,7 @@ class _HomePageState extends State<HomePage> {
     NewsPage(),
     AddNew(),
     ProductPage(),
-    learnPage()
+    ResoucePage()
   ];
   // ignore: non_constant_identifier_names
   List Title = const [
@@ -159,7 +160,7 @@ class _HomePageState extends State<HomePage> {
                           color: const Color(0xFFEFF3F5),
                           child: InkWell(
                             onTap: () {
-                              // Navigator.of(context).push(_createRoute());
+                              Navigator.of(context).push(_createRoute());
                             },
                             focusColor: const Color(0xFFEFF3F5),
                             hoverColor: const Color(0xFFEFF3F5),
