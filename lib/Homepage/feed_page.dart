@@ -1,7 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+// import 'package:krishijodd/HomePages/PostExpanded.dart';
+import 'package:krishijodd/Homepage/post_list.dart';
 import 'package:krishijodd/Homepage/weather_page.dart';
+import 'package:readmore/readmore.dart';
+// import 'package:krishijodd/HomePages/postSection_page.dart';
 
 class FeedPage extends StatefulWidget {
   const FeedPage({super.key});
@@ -31,13 +35,12 @@ class _FeedPageState extends State<FeedPage> {
     super.initState();
   }
 
-  bool isLiked = true;
+  int _likes = 0;
 
-  _changeLike() {
+  void _toggleLike() {
     setState(() {
-      isLiked = !isLiked;
+      _likes = _likes == 0 ? 1 : 0;
     });
-    print(isLiked);
   }
 
   @override
@@ -196,14 +199,22 @@ class _FeedPageState extends State<FeedPage> {
                                         const SizedBox(
                                           height: 5,
                                         ),
-                                        Text(
+                                        ReadMoreText(
                                           snapshot.data!.docs[index]
                                               .get('description'),
-                                          textAlign: TextAlign.left,
-                                          style: const TextStyle(
-                                              fontWeight: FontWeight.w500,
+                                          trimLines: 2,
+                                          textScaleFactor: 1,
+                                          colorClickableText: Colors.red,
+                                          trimMode: TrimMode.Line,
+                                          trimCollapsedText: 'Show more',
+                                          trimExpandedText: 'Show less',
+                                          style: TextStyle(
+                                              color: Colors.black,
+                                              fontSize: 15),
+                                          moreStyle: TextStyle(
+                                              fontWeight: FontWeight.w400,
                                               color: Color.fromARGB(
-                                                  255, 113, 112, 112)),
+                                                  255, 123, 35, 35)),
                                         ),
                                         const SizedBox(
                                           height: 8,
@@ -239,26 +250,29 @@ class _FeedPageState extends State<FeedPage> {
                                           MainAxisAlignment.spaceEvenly,
                                       children: [
                                         InkWell(
-                                          onTap: () {
-                                            _changeLike();
+                                          onTap: () async {
+                                            setState(() {
+                                              isLiked = !isLiked;
+                                              print(isLiked);
+                                            });
                                           },
                                           child: Row(
                                             children: [
-                                              InkWell(
-                                                onTap: () {
-                                                  _changeLike();
-                                                  const Icon(Icons.abc);
-                                                },
-                                                child: Icon(
-                                                  isLiked == false
-                                                      ? Icons.favorite
-                                                      : Icons
-                                                          .favorite_border_outlined,
-                                                  size: 25,
-                                                  color: isLiked == false
-                                                      ? Colors.red
-                                                      : Colors.black,
-                                                ),
+                                              IconButton(
+                                                icon: _likes == 1
+                                                    // ignore: prefer_const_constructors
+                                                    ? Icon(
+                                                        Icons.favorite,
+                                                        size: 25,
+                                                        color: Colors.red,
+                                                      )
+                                                    // ignore: prefer_const_constructors
+                                                    : Icon(
+                                                        Icons
+                                                            .favorite_border_outlined,
+                                                        size: 25,
+                                                      ),
+                                                onPressed: _toggleLike,
                                               ),
                                               const SizedBox(
                                                   width:

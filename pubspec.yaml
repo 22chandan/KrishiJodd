@@ -35,6 +35,7 @@ dependencies:
   mailto: ^2.0.0
   lottie: ^2.2.0
   animations: ^2.0.7
+  readmore: ^2.1.0
 
 
 dev_dependencies:
@@ -59,12 +60,6 @@ flutter:
     - assets/images/123.png
     - assets/lottie/lot.json
     - assets/lottie/load.json
-
-
-    
-
-
-
 
     
 
