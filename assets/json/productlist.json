@@ -1,99 +1,90 @@
 [
-    {
-      "id": 0,
-      "name": "TAD SOLID® 202 Grade Stainless",
-      "description": "TAD SOLID® 202 Grade Stainless Steel Spade for Gardening or Digging Heavy Duty Agriculture Tool (Kassi fawda Shovel Hoe)",
-      "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/21m9ortcqzL._SX300_SY300_QL70_ML2_.jpg",
-      "price": "799",
-      "ProductUrl":"https://www.amazon.in/TADSO-LID-Stainless-Gardening-Digging-Agriculture/dp/B084LDN6Y8"
-    },
-    {
-      "id": 1,
-      "name": "Asian - Men Bouncer",
-      "category": "Men",
-      "oldPrice": "999",
-      "imageUrl": "https://m.media-amazon.com/images/I/61hMQOHmEIL._AC_UL320_.jpg",
-      "price": "719"
-    },
-    {
-      "id": 2,
-      "name": "Sparx",
-      "category": "Men",
-      "imageUrl": "https://m.media-amazon.com/images/I/81b9Eh286BL._AC_UL320_.jpg",
-      "oldPrice": "1349",
-      "price": "944"
-    },
-    {
-      "id": 3,
-      "name": "Ethics",
-      "category": "Men",
-      "imageUrl": "https://m.media-amazon.com/images/I/61U-R3-znNL._AC_UL320_.jpg",
-      "oldPrice": "999",
-      "price": "469"
-    },
-    {
-      "id": 4,
-      "name": "Sparx",
-      "category": "men",
-      "imageUrl": "https://m.media-amazon.com/images/I/81Ud8DjRbXL._AC_UL320_.jpg",
-      "oldPrice": "849",
-      "price": "760"
-    },
-    {
-      "id": 5,
-      "name": "Asian",
-      "category": "Men",
-      "imageUrl": "https://m.media-amazon.com/images/I/71M5-l4H-aL._AC_UL320_.jpg",
-      "oldPrice": "599",
-      "price": "449"
-    },
-    {
-      "id": 6,
-      "name": "Reebok",
-      "category": "Men",
-      "imageUrl": "https://m.media-amazon.com/images/I/71OEHq3M-9L._AC_UL320_.jpg",
-      "oldPrice": "2799",
-<<<<<<< HEAD
-      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne",
-=======
->>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
-      "price": "1196"
-    },
-    {
-      "id": 7,
-      "name": "Sparx",
-      "category": "Men",
-      "imageUrl": "https://m.media-amazon.com/images/I/81iRr9yEzxL._AC_UL320_.jpg",
-      "oldPrice": "1049",
-<<<<<<< HEAD
-      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne"    
-=======
-      "price": "890"
->>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
-    },
-    {
-      "id": 8,
-      "name": "Reebok",
-      "category": "Men",
-      "imageUrl": "https://m.media-amazon.com/images/I/81iqNypAS-L._AC_UL320_.jpg",
-      "oldPrice": "3699",
-<<<<<<< HEAD
-      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne" ,
-=======
->>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
-      "price": "999"
-    },
-    {
-      "id": 9,
-      "name": "Asian",
-      "category": "Men",
-      "imageUrl": "https://m.media-amazon.com/images/I/61Uu4ZpqCDL._AC_UL320_.jpg",
-      "oldPrice": "1499",
-<<<<<<< HEAD
-      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne" ,
-=======
->>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
-      "price": "719"
->>>>>>> baf5b8d16646b2289ac7c481310cdd31caa01638
-    }
-  ]
+  {
+    "id": 0,
+    "name": "TAD SOLID® 202 Grade Stainless",
+    "description": "TAD SOLID® 202 Grade Stainless Steel Spade for Gardening or Digging Heavy Duty Agriculture Tool (Kassi fawda Shovel Hoe)",
+    "imageUrl": "https://images-eu.ssl-images-amazon.com/images/I/21m9ortcqzL._SX300_SY300_QL70_ML2_.jpg",
+    "price": "799",
+    "ProductUrl":"https://www.amazon.in/TADSO-LID-Stainless-Gardening-Digging-Agriculture/dp/B084LDN6Y8"
+  },
+  {
+    "id": 1,
+    "name": "Supvox® Electric Agriculture Sprayer",
+    "description": "Supvox® Electric Agriculture Sprayer with 3m Pipe & 2 Nozzles, USB Rechargeable Sprayer Pump, Portable Sprayer for Gardening for Greenhouse Planting Bush Flower Agriculture",
+    "imageUrl": "https://m.media-amazon.com/images/I/41f6MjgDg+L._SL1024_.jpg",
+    "price": "1,999",
+    "ProductUrl":"https://www.amazon.in/Electric-Agriculture-Rechargeable-Gardening-Greenhouse/dp/B0B88MTG3V"
+   
+  },
+  {
+    "id": 2,
+    "name": "Agriculture Sprayer Pump",
+    "description": "Agriculture Sprayer Pump (Delivery Pipe, 8 Hole Nozzle,Clutch,Nozzle Set, Lance Set, vicer) for Agriculture Sprayer, Farming, Gardening",
+    "imageUrl": "https://m.media-amazon.com/images/I/61aKogRCmeL._SX569_.jpg",
+    "price": "944",
+    "ProductUrl":"https://www.amazon.in/Agriculture-Sprayer-Lance-Above-nozzles/dp/B0BT1FRB4T/ref=sr_1_1?keywords=agriculture+sprayer+parts&qid=1677323100&sr=8-1"
+   
+  },
+  {
+    "id": 3,
+    "name": "Pad Corp Double Bull Battery Operated Sprayer",
+    "description": "Pad Corp Double Bull Battery Operated Sprayer 12VX14 Super Strong Tank Capacity 18 Liter, 4 Set of Nozzles, High Pressure Double Motor Luxury Back Support, 1.7 AH Super Fast Big Charger",
+    "imageUrl": "https://m.media-amazon.com/images/I/710ZnPRr6qL._SY879_.jpg",
+    "price": "5,399",
+    "ProductUrl":"https://www.amazon.in/Battery-Operated-Sprayer-Capacity-Pressure/dp/B08NW5DBRC"
+   
+  },
+  {
+    "id": 4,
+    "name": "Plant Cutter For Home Garden",
+    "description": "Jd Fresh 8 Inch Heavy Duty Plant Cutter For Home Garden Scissors, Plant Branch Cutter For Tree, Pruner Cutter Heavy Duty, Garden Tools For Home Gardening Scissors, Prunning Branch Cutter For Garden",
+    "imageUrl": "https://m.media-amazon.com/images/I/61Ls0gGESZS._SX466_.jpg",
+    "price": "489",
+    "ProductUrl":"https://www.amazon.in/Heavy-Duty-Scissors-Gardening-Prunning/dp/B093FDQ5HK"
+ 
+  },
+  {
+    "id": 5,
+    "name": "AsBalwaan BS-20 Battery Sprayer 12 Volts x 8ian",
+    "description": "Balwaan BS-20 Battery Sprayer 12 Volts x 8 Ampere | High Pressure up to 15 feet Spray | Knapsack Sprayer | 20 Litre Tank Capacity | for Spraying in pesticides, herbicides, fungicides, etc",
+    "imageUrl": "https://m.media-amazon.com/images/I/511kE5G6GDL._SX569_.jpg",
+    "price": "3,190",
+    "ProductUrl":"https://www.amazon.in/Balwaan-Battery-Knapsack-Sprayer-Pump/dp/B09WF2S63N"
+   
+  },
+  {
+    "id": 6,
+    "name": "Teeth Garden Rake Without Handle (Black)",
+    "description": "Falcon Steel Fgr-10 10-Teeth Garden Rake Without Handle (Black)",
+    "imageUrl": "https://m.media-amazon.com/images/I/31MhBoSTR5L.jpg",
+    "price": "299",
+    "ProductUrl":"https://www.amazon.in/Falcon-FGR-14-14-Teeth-Garden-Without/dp/B01E77LYOM"
+    
+  },
+  {
+    "id": 7,
+    "name": "SparCrop Cutter Machine",
+    "description": "Balwaan BX-35 Brush Cutter 35cc 4 Stroke Side Pack Crop Cutter Machine | Grass Trimming | Lawn Trimming | Farm Weeding | Weeding in Fruits and Vegetables",
+    "imageUrl": "https://m.media-amazon.com/images/I/71z94b9ORCL._SX569_.jpg",
+    "price": "10,999",
+    "ProductUrl":"https://www.amazon.in/Green-Leaf-Agriculture-Gardening-Trimming/dp/B08W1WL37M"
+   
+  },
+  {
+    "id": 8,
+    "name": "Water Pump Battery Sprayer",
+    "description": "Agriansh 12v DC Water Pump Battery Sprayer Motor Double High Performance 12V Dc 220 Psi Used in Farm Agriculture Mist Spray, Car Bike Wash, Sanitizing, Ac Cleaning, Gardening",
+    "imageUrl": "https://m.media-amazon.com/images/I/71uQs5fcPOL._SX569_.jpg",
+    "price": "1,249",
+    "ProductUrl":"https://www.amazon.in/ANSH-Battery-Sprayer-Dssouble-Performance/dp/B08V9CXHL7"
+   
+  },
+  {
+    "id": 9,
+    "name": "IFFCO Urban Gardens ",
+    "description": "IFFCO Urban Gardens - Horti Clay 1.8Kg / 6Litre  LECA Hydroton Clay Balls - Size: 8-15mm - Multiple Applications: Hydroponics, Aeroponics, Aquaponics, Indoor and Outdoor Pots and Garden Beds",
+    "imageUrl": "https://m.media-amazon.com/images/I/51aW1EkIsSL._SX466_.jpg",
+    "price": "719",
+    "ProductUrl":""
+  }
+]

@@ -81,16 +81,17 @@ class ProductPage extends StatelessWidget {
                                       item[index]
                                               .description
                                               .toString()
-                                              .substring(0, 25) +
+                                              .substring(0, 20) +
                                           "..." +
                                           "More",
                                       style: TextStyle(
-                                          fontSize: 10,
+                                          fontSize: 11,
                                           color: Colors.black54,
-                                          fontWeight: FontWeight.w600)),
+                                          fontWeight: FontWeight.w800)),
                                 ),
                                 Padding(
-                                  padding: const EdgeInsets.symmetric(vertical: 14),
+                                  padding:
+                                      const EdgeInsets.symmetric(vertical: 14),
                                   child: Row(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,
