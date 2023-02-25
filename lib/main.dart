@@ -3,8 +3,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:krishijodd/AuthPages/auth_check.dart';
-import 'package:krishijodd/AuthPages/register.dart';
 import 'package:krishijodd/firebase_options.dart';
 import 'package:krishijodd/splash.dart';
 

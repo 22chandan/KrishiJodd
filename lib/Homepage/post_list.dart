@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:krishijodd/HomePages/weather_page.dart';
 import 'package:krishijodd/Homepage/weather_page.dart';
 
 class PostList extends StatefulWidget {

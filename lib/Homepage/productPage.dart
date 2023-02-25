@@ -30,7 +30,12 @@ class ProductPage extends StatelessWidget {
                   itemCount: item == null ? 0 : item.length,
                   shrinkWrap: true,
                   itemBuilder: (BuildContext context, int index) {
-                    return Container(
+                    return InkWell(
+                      onTap: () async {
+                        // ignore: deprecated_member_use
+                        await launch(
+                            Uri.encodeFull(item[index].ProductUrl.toString()));
+                      },
                       child: Column(
                         children: [
                           Container(
@@ -46,11 +51,6 @@ class ProductPage extends StatelessWidget {
                             child: Column(
                               children: [
                                 InkWell(
-                                  onTap: () async {
-                                    // ignore: deprecated_member_use
-                                    await launch(Uri.encodeFull(
-                                        item[index].ProductUrl.toString()));
-                                  },
                                   child: Container(
                                     width: 100,
                                     height: 100,
@@ -64,7 +64,11 @@ class ProductPage extends StatelessWidget {
                                 Container(
                                   padding: const EdgeInsets.only(bottom: 10),
                                   alignment: Alignment.centerLeft,
-                                  child: Text(item[index].name.toString(),
+                                  child: Text(
+                                      item[index]
+                                          .name
+                                          .toString()
+                                          .substring(0, 20),
                                       // ignore: prefer_const_constructors
                                       style: TextStyle(
                                           fontSize: 12,
@@ -73,12 +77,21 @@ class ProductPage extends StatelessWidget {
                                 ),
                                 Container(
                                   alignment: Alignment.centerLeft,
-                                  child: const Text("Write a discription",
+                                  child: Text(
+                                      item[index]
+                                              .description
+                                              .toString()
+                                              .substring(0, 20) +
+                                          "..." +
+                                          "More",
                                       style: TextStyle(
-                                          fontSize: 10, color: Colors.black54)),
+                                          fontSize: 11,
+                                          color: Colors.black54,
+                                          fontWeight: FontWeight.w800)),
                                 ),
                                 Padding(
-                                  padding: EdgeInsets.symmetric(vertical: 14),
+                                  padding:
+                                      const EdgeInsets.symmetric(vertical: 14),
                                   child: Row(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,
