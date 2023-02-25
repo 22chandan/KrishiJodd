@@ -26,7 +26,7 @@ class _WeatherPageState extends State<WeatherPage> {
   Future<Weather> _getTemparature(latitude, longitude) async {
     try {
       final queryParameters = {
-        'key': '9b23054a831f4932ad790845230902',
+        'key': 'a01a571b304246d4883114456232502',
         'q': '$latitude,$longitude'
       };
       final uri =
@@ -63,10 +63,11 @@ class _WeatherPageState extends State<WeatherPage> {
     if (permission == LocationPermission.denied) {
       permission = await Geolocator.requestPermission();
       if (permission == LocationPermission.deniedForever) {
-        return Future.error('Location not available');
+        return Future.error(
+            'Location not available tell the user to grant permission');
       }
     } else {
-      print('Location not available');
+      print('Location not available tell the user to grant permission');
     }
     return await Geolocator.getCurrentPosition();
   }

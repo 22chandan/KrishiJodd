@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "1": [{
     "name": "Mukesh Kuiry",
     "Profilepic": "assets/images/kisan.png",
@@ -23,4 +24,78 @@
       }]
     }]
   }]
+=======
+  "1": {
+    "name": "Mukesh Kuiry",
+    "Profile-pic": "assets/images/kisan.png",
+    "user-location": "kolkata",
+    "post-title": "Its and title",
+    "post-desription": "Crafting refers to the process of creating or making something by hand, using a variety of tools, materials and techniques. This can include activities such as woodworking, knitting, painting, pottery, and many more. The outcome of crafting can range from functional objects like furniture and clothing, to decorative items like jewelry and wall art. It is often seen as a form of therapy or leisure, and can bring joy and satisfaction to those who engage in it.",
+    "post-img-url": "assets/images/post-img.jpg",
+    "like": {
+      "mukeshkk3162@gmail.com": 1,
+      "mukeshk3163@gmail.com": 1
+    },
+    "comments": {
+      "1": {
+        "name": "Mukesh Kuiry",
+        "Profile-pic": "assets/images/kisan.png",
+        "message": "Lol its an comment"
+      },
+      "2": {
+        "name": "Hritik Bhattacharya",
+        "Profile-pic": "assets/images/kisan.png",
+        "message": "Lol its an comment no 2"
+      }
+    }
+  },
+  "2": {
+    "name": "Hritik Bhattacharya",
+    "Profile-pic": "assets/images/kisan.png",
+    "user-location": "kolkata",
+    "post-title": "Its and title",
+    "post-desription": "Crafting refers to the process of creating or making something by hand, using a variety of tools, materials and techniques. This can include activities such as woodworking, knitting, painting, pottery, and many more. The outcome of crafting can range from functional objects like furniture and clothing, to decorative items like jewelry and wall art. It is often seen as a form of therapy or leisure, and can bring joy and satisfaction to those who engage in it.",
+    "post-img-url": "assets/images/post-img.jpg",
+    "like": {
+      "mukeshkk3162@gmail.com": 1,
+      "mukeshk3163@gmail.com": 1
+    },
+    "comments": {
+      "1": {
+        "name": "Mukesh Kuiry",
+        "Profile-pic": "assets/images/kisan.png",
+        "message": "Lol its an comment"
+      },
+      "2": {
+        "name": "Hritik Bhattacharya",
+        "Profile-pic": "assets/images/kisan.png",
+        "message": "Lol its an comment no 2"
+      }
+    }
+  },
+  "3": {
+    "name": "Chandan kumar",
+    "Profile-pic": "assets/images/kisan.png",
+    "user-location": "kolkata",
+    "post-title": "Its and title",
+    "post-desription": "Crafting refers to the process of creating or making something by hand, using a variety of tools, materials and techniques. This can include activities such as woodworking, knitting, painting, pottery, and many more. The outcome of crafting can range from functional objects like furniture and clothing, to decorative items like jewelry and wall art. It is often seen as a form of therapy or leisure, and can bring joy and satisfaction to those who engage in it.",
+    "post-img-url": "assets/images/post-img.jpg",
+    "like": {
+      "mukeshkk3162@gmail.com": 1,
+      "mukeshk3163@gmail.com": 1
+    },
+    "comments": {
+      "1": {
+        "name": "Mukesh Kuiry",
+        "Profile-pic": "assets/images/kisan.png",
+        "message": "Lol its an comment"
+      },
+      "2": {
+        "name": "Hritik Bhattacharya",
+        "Profile-pic": "assets/images/kisan.png",
+        "message": "Lol its an comment no 2"
+      }
+    }
+  }
+>>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
 }

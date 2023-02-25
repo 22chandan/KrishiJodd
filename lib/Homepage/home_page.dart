@@ -123,8 +123,8 @@ class _HomePageState extends State<HomePage> {
                         Padding(
                           padding: const EdgeInsets.fromLTRB(10, 7, 10, 0),
                           child: Text(
-                            // Title[currentIndex],
-                            "its me bro",
+                            Title[currentIndex],
+                            // "its me bro",
                             style: GoogleFonts.urbanist(
                                 fontSize: currW * 0.06,
                                 fontWeight: FontWeight.bold,
