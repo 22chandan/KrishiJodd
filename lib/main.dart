@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:krishijodd/Homepage/productPage.dart';
-
-import 'Homepage/feed_page.dart';
+import 'package:krishijodd/AuthPages/login_hero.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(),
+      home: const LoginHero(),
     );
   }
 }

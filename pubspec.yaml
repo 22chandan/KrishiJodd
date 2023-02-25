@@ -51,7 +51,7 @@ flutter:
     - assets/images/google.png
     - assets/images/hero.png
     - assets/images/post-img.jpg
-    # - assets/json/resources.json
+    - assets/json/resources.json
     - assets/json/productlist.json
     - assets/images/123.png
 
