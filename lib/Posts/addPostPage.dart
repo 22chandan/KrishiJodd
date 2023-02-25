@@ -236,9 +236,12 @@ class _AddNewState extends State<AddNew> {
                                 ),
                                 title: Column(
                                   children: [
-                                    Lottie.network(
-                                        'https://assets7.lottiefiles.com/packages/lf20_jbrw3hcz.json'),
-                                    const Text("Post Successfully Added"),
+                                    Lottie.asset('assets/lottie/load.json'),
+                                    Center(
+                                        child: Text(
+                                      "Post added successfully",
+                                      style: TextStyle(fontSize: currH * 0.02),
+                                    )),
                                   ],
                                 ),
                                 actions: [
