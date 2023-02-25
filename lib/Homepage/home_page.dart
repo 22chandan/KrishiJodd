@@ -159,7 +159,7 @@ class _HomePageState extends State<HomePage> {
                           color: const Color(0xFFEFF3F5),
                           child: InkWell(
                             onTap: () {
-                              // Navigator.of(context).push(_createRoute());
+                              Navigator.of(context).push(_createRoute());
                             },
                             focusColor: const Color(0xFFEFF3F5),
                             hoverColor: const Color(0xFFEFF3F5),

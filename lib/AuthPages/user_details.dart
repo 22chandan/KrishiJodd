@@ -1,3 +1,5 @@
+// ignore_for_file: use_build_context_synchronously
+
 import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:file_picker/file_picker.dart';
@@ -330,6 +332,7 @@ class _AddProfileDetailsState extends State<AddProfileDetails> {
                         'about': about.text,
                         'profileUrl': urlDownload,
                       });
+
                       Navigator.pop(context);
                       showDialog(
                         context: context,
@@ -340,9 +343,12 @@ class _AddProfileDetailsState extends State<AddProfileDetails> {
                             ),
                             title: Column(
                               children: [
-                                Lottie.network(
-                                    'https://assets7.lottiefiles.com/packages/lf20_jbrw3hcz.json'),
-                                const Text("Account created successfully"),
+                                Lottie.asset('assets/lottie/load.json'),
+                                Center(
+                                    child: Text(
+                                  "Account created successfully",
+                                  style: TextStyle(fontSize: currH * 0.02),
+                                )),
                               ],
                             ),
                             actions: [
