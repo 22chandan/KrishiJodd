@@ -156,7 +156,7 @@ class _profilePageState extends State<profilePage> {
                     ),
                     Text(
                       // user.displayName == null ? "Mukesh" : user.displayName!,
-                      name != null ? name! : "Image not found",
+                      name != null ? name! : "Name nor Provided",
                       style: GoogleFonts.urbanist(
                           fontSize: currH * 0.047, fontWeight: FontWeight.bold),
                     ),
