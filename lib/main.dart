@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:krishijodd/Homepage/productPage.dart';
+
+import 'Homepage/feed_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'KrishiJodd',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -30,6 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: ProductPage(),
     );
   }
 }
