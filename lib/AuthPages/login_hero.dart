@@ -41,7 +41,8 @@ class _LoginHeroState extends State<LoginHero> {
                 SizedBox(
                   height: currH * 0.2,
                 ),
-                Lottie.asset('assets/lottie/lot.json', width: currW),
+                Lottie.asset('assets/lottie/lot.json',
+                    width: currW),
                 SizedBox(
                   height: currH * 0.1,
                 ),

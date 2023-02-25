@@ -14,6 +14,7 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:krishijodd/Homepage/preview_image.dart';
 import 'package:krishijodd/Homepage/productPage.dart';
 import 'package:krishijodd/Homepage/profilePage.dart';
+import 'package:krishijodd/Homepage/resources.dart';
 
 import '../Posts/addPostPage.dart';
 import 'feed_page.dart';
@@ -37,7 +38,7 @@ class _HomePageState extends State<HomePage> {
     NewsPage(),
     AddNew(),
     ProductPage(),
-    learnPage()
+    ResoucePage()
   ];
   // ignore: non_constant_identifier_names
   List Title = const [
