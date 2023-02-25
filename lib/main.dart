@@ -3,13 +3,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:krishijodd/AuthPages/auth_check.dart';
-import 'package:krishijodd/AuthPages/register.dart';
 import 'package:krishijodd/firebase_options.dart';
 import 'package:krishijodd/splash.dart';
-import 'package:krishijodd/Homepage/productPage.dart';
-import 'package:krishijodd/AuthPages/login_hero.dart';
-import 'package:krishijodd/Post/addPost.dart';
 
 void main() async {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
