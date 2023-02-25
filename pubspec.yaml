@@ -59,6 +59,7 @@ flutter:
     - assets/json/productlist.json
     - assets/images/123.png
     - assets/lottie/lot.json
+    - assets/lottie/load.json
     
 
 
