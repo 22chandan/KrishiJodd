@@ -5,7 +5,6 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:http/http.dart' as http;
-import 'package:krishijodd/Homepage/post_list.dart';
 import 'dart:convert';
 
 import 'package:krishijodd/Homepage/weather.dart';
@@ -27,7 +26,7 @@ class _WeatherPageState extends State<WeatherPage> {
   Future<Weather> _getTemparature(latitude, longitude) async {
     try {
       final queryParameters = {
-        'key': '9b23054a831f4932ad790845230902',
+        'key': 'a01a571b304246d4883114456232502',
         'q': '$latitude,$longitude'
       };
       final uri =

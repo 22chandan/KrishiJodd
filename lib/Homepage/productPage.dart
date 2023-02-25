@@ -78,14 +78,14 @@ class ProductPage extends StatelessWidget {
                                           fontSize: 10, color: Colors.black54)),
                                 ),
                                 Padding(
-                                  padding: EdgeInsets.symmetric(vertical: 14),
+                                  padding: const EdgeInsets.symmetric(vertical: 14),
                                   child: Row(
                                     mainAxisAlignment:
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        "\$" + item[index].price.toString(),
-                                        style: TextStyle(
+                                        "\$${item[index].price}",
+                                        style: const TextStyle(
                                             fontSize: 20,
                                             fontWeight: FontWeight.bold,
                                             color: Colors.blue),
@@ -118,7 +118,7 @@ class ProductPage extends StatelessWidget {
                   },
                 );
               } else {
-                return Center(
+                return const Center(
                   child: CircularProgressIndicator(),
                 );
               }

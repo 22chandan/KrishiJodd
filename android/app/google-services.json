@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "49115974578",
+    "project_id": "krishijodd---diversion2k23",
+    "storage_bucket": "krishijodd---diversion2k23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49115974578:android:0ca27768c4d3b5a31272ab",
+        "android_client_info": {
+          "package_name": "com.example.krishijodd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49115974578-qq632638belrkb3ek81ikgu4llug2d7i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyMT1D9-jpRYpWCIdPARC3G0kMixYjwYw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49115974578-qq632638belrkb3ek81ikgu4llug2d7i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

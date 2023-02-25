@@ -2,7 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:krishijodd/AuthPages/register.dart';
+import 'package:krishijodd/AuthPages/user_details.dart';
 import 'package:lottie/lottie.dart';
+
+import 'login.dart';
 // import 'package:krishijodd/Login/loginPage.dart';
 // import 'package:krishijodd/Login/register.dart';
 
@@ -59,11 +63,11 @@ class _LoginHeroState extends State<LoginHero> {
                       elevation: 0,
                       minimumSize: Size(currW * 0.9, currH * 0.07)),
                   onPressed: () {
-                    // Navigator.push(
-                    //     context,
-                    //     MaterialPageRoute(
-                    //       builder: (context) => LoginPage(),
-                    //     ));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => LoginPage(),
+                        ));
                   },
                   child:
                       Text("Login", style: GoogleFonts.urbanist(fontSize: 20)),
@@ -77,11 +81,11 @@ class _LoginHeroState extends State<LoginHero> {
                         elevation: 0,
                         minimumSize: Size(currW * 0.9, currH * 0.07)),
                     onPressed: () {
-                      // Navigator.push(
-                      //     context,
-                      //     MaterialPageRoute(
-                      //       builder: (context) => const Registerpage(),
-                      //     ));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const Registerpage(),
+                          ));
                     },
                     child: Text(
                       "Register",

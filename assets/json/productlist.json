@@ -1,10 +1,18 @@
 [
     {
       "id": 0,
+<<<<<<< HEAD
+      "name": "Water Pump Battery",
+      "category": "NOP",
+      "imageUrl": "https://rukminim1.flixcart.com/image/416/416/kuef2q80/water-pump/5/8/y/12v-dc-water-pump-battery-sprayer-copper-motor-4-5-dgk-original-imag7jyjauckzt73.jpeg?q=70",
+      "oldPrice": "1899",
+      "ProductUrl": "https://www.flipkart.com/dgk-12v-dc-water-pump-battery-sprayer-copper-motor-magnetic/p/itm2d2c262c564ea?pid=WPMG7JYJTYDZYS3P&lid=LSTWPMG7JYJTYDZYS3PW0IVUP&marketplace=FLIPKART&q=agriculture&store=search.flipkart.com&srno=s_1_26&otracker=search&otracker1=search&fm=Search&iid=2edf8ccd-e53c-4fa3-9c31-0259d6ea9f97.WPMG7JYJTYDZYS3P.SEARCH&ppt=sp&ppn=sp&ssid=bi7znmb6280000001676313071845&qH=f8ea9e07f542c0cd",
+=======
       "name": "NexMart - Casual Sneakers",
       "category": "NOP",
       "imageUrl": "https://m.media-amazon.com/images/I/81S-ekaE+vS._AC_UL320_.jpg",
       "oldPrice": "1899",
+>>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
       "price": "799"
     },
     {
@@ -13,12 +21,20 @@
       "category": "Men",
       "oldPrice": "999",
       "imageUrl": "https://m.media-amazon.com/images/I/61hMQOHmEIL._AC_UL320_.jpg",
+<<<<<<< HEAD
+      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne",
+=======
+>>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
       "price": "719"
     },
     {
       "id": 2,
       "name": "Sparx",
       "category": "Men",
+<<<<<<< HEAD
+      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne",
+=======
+>>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
       "imageUrl": "https://m.media-amazon.com/images/I/81b9Eh286BL._AC_UL320_.jpg",
       "oldPrice": "1349",
       "price": "944"
@@ -26,7 +42,11 @@
     {
       "id": 3,
       "name": "Ethics",
+<<<<<<< HEAD
+      "category": "Men", "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne",
+=======
       "category": "Men",
+>>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
       "imageUrl": "https://m.media-amazon.com/images/I/61U-R3-znNL._AC_UL320_.jpg",
       "oldPrice": "999",
       "price": "469"
@@ -35,6 +55,10 @@
       "id": 4,
       "name": "Sparx",
       "category": "men",
+<<<<<<< HEAD
+      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne",
+=======
+>>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
       "imageUrl": "https://m.media-amazon.com/images/I/81Ud8DjRbXL._AC_UL320_.jpg",
       "oldPrice": "849",
       "price": "760"
@@ -45,6 +69,10 @@
       "category": "Men",
       "imageUrl": "https://m.media-amazon.com/images/I/71M5-l4H-aL._AC_UL320_.jpg",
       "oldPrice": "599",
+<<<<<<< HEAD
+      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne",
+=======
+>>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
       "price": "449"
     },
     {
@@ -53,6 +81,10 @@
       "category": "Men",
       "imageUrl": "https://m.media-amazon.com/images/I/71OEHq3M-9L._AC_UL320_.jpg",
       "oldPrice": "2799",
+<<<<<<< HEAD
+      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne",
+=======
+>>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
       "price": "1196"
     },
     {
@@ -61,7 +93,11 @@
       "category": "Men",
       "imageUrl": "https://m.media-amazon.com/images/I/81iRr9yEzxL._AC_UL320_.jpg",
       "oldPrice": "1049",
+<<<<<<< HEAD
+      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne"    
+=======
       "price": "890"
+>>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
     },
     {
       "id": 8,
@@ -69,6 +105,10 @@
       "category": "Men",
       "imageUrl": "https://m.media-amazon.com/images/I/81iqNypAS-L._AC_UL320_.jpg",
       "oldPrice": "3699",
+<<<<<<< HEAD
+      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne" ,
+=======
+>>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
       "price": "999"
     },
     {
@@ -77,6 +117,10 @@
       "category": "Men",
       "imageUrl": "https://m.media-amazon.com/images/I/61Uu4ZpqCDL._AC_UL320_.jpg",
       "oldPrice": "1499",
+<<<<<<< HEAD
+      "ProductUrl": "https://www.amazon.com/NexMart-Casual-Sne" ,
+=======
+>>>>>>> 4867aa1a7494d92319d3790b2a31c330b9bc0662
       "price": "719"
     }
   ]
