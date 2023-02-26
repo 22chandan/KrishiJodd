@@ -26,13 +26,14 @@ class _WeatherPageState extends State<WeatherPage> {
   Future<Weather> _getTemparature(latitude, longitude) async {
     try {
       final queryParameters = {
-        'key': 'a01a571b304246d4883114456232502',
+        'key': '6e891f6c10b04ea185a192013232502',
         'q': '$latitude,$longitude'
       };
       final uri =
           Uri.http('api.weatherapi.com', 'v1/current.json', queryParameters);
       final response = await http.get(uri);
       if (response.statusCode == 200) {
+        print("kue nahi aa raha bhai tu");
         return Weather.fromJson(jsonDecode(response.body));
       } else {
         throw Exception('Error occured');
@@ -63,11 +64,10 @@ class _WeatherPageState extends State<WeatherPage> {
     if (permission == LocationPermission.denied) {
       permission = await Geolocator.requestPermission();
       if (permission == LocationPermission.deniedForever) {
-        return Future.error(
-            'Location not available tell the user to grant permission');
+        return Future.error('Location not available');
       }
     } else {
-      print('Location not available tell the user to grant permission');
+      print('Location not available');
     }
     return await Geolocator.getCurrentPosition();
   }
