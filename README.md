@@ -16,7 +16,10 @@ or to setup follow - https://docs.flutter.dev/get-started/install
   flutter pub get
   flutter run
 ```
-  ## Video Demo
+## GDrive downloadable app link
+  https://drive.google.com/file/d/1hwa7EDAMF8za3sm_k4Zld0JcFWK87SaM/view?usp=sharing
+
+## Video Demo
   https://youtu.be/pLL17XQo6Zg
 
 ## Preview
