@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
     NewsPage(),
     AddNew(),
     ProductPage(),
-    ResoucePage()
+    learnPage()
   ];
   // ignore: non_constant_identifier_names
   List Title = const [
