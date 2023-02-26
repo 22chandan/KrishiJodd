@@ -66,7 +66,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '49115974578',
     projectId: 'krishijodd---diversion2k23',
     storageBucket: 'krishijodd---diversion2k23.appspot.com',
-    iosClientId: '49115974578-gl12ovr99fhncabkr8o9iugcaovibadc.apps.googleusercontent.com',
+    iosClientId:
+        '49115974578-gl12ovr99fhncabkr8o9iugcaovibadc.apps.googleusercontent.com',
     iosBundleId: 'com.example.krishijodd',
   );
 
@@ -76,7 +77,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '49115974578',
     projectId: 'krishijodd---diversion2k23',
     storageBucket: 'krishijodd---diversion2k23.appspot.com',
-    iosClientId: '49115974578-gl12ovr99fhncabkr8o9iugcaovibadc.apps.googleusercontent.com',
+    iosClientId:
+        '49115974578-gl12ovr99fhncabkr8o9iugcaovibadc.apps.googleusercontent.com',
     iosBundleId: 'com.example.krishijodd',
   );
 }
