@@ -8,7 +8,8 @@ With this initiative, we aim to revolutionise the agriculture sector by building
 
 To run the app foloow the given commands 
 ### Pre-Requisite
-Flutter must to set-uped
+Flutter must to setup
+or to setup follow - https://docs.flutter.dev/get-started/install
 
 ```bash
   git clone https://github.com/bbsdevloper/Diversion2k23-hack_init
