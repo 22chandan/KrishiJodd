@@ -120,7 +120,7 @@ class _AddProfileDetailsState extends State<AddProfileDetails> {
                               borderRadius: BorderRadius.circular(200.0),
                               child: pickedFile == null
                                   ? Image.network(
-                                      'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGLanNnFsLi3QnQFdh-k-mkwG6yrEEXhorSoElObizTnP0_8rR',
+                                      'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png',
                                       height: currH * 0.14,
                                       width: currH * 0.14,
                                       fit: BoxFit.cover,
