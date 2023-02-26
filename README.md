@@ -14,7 +14,7 @@ or to setup follow - https://docs.flutter.dev/get-started/install
 ```bash
   git clone https://github.com/bbsdevloper/Diversion2k23-hack_init
   flutter pub get
-  flutetr run
+  flutter run
 ```
   ## Video Demo
   https://youtu.be/pLL17XQo6Zg
